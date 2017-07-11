@@ -19,4 +19,4 @@ Copy this code and paste at Console, when the page is fully load.
 	}
 	pagePerformance.push(construindo);
 }
-console.table(pagePerformance);
+console.table(pagePerformance)
