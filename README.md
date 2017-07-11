@@ -3,8 +3,8 @@ Displays the performance of page elements in a table on the console.
 
 Copy this code and paste at Console, when the page is fully load.
 
-var pagePerformance = [];
-for (var i = 0; i < performance.getEntries().length; i++) {
+	var pagePerformance = [];
+	for (var i = 0; i < performance.getEntries().length; i++) {
 		var nomePerformance = performance.getEntries()[i]["name"];
 		var tipoPerformance = performance.getEntries()[i]["initiatorType"];
 		var tamanhoPerformance = performance.getEntries()[i]["transferSize"];
