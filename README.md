@@ -17,6 +17,5 @@ Copy this code and paste at Console, when the page is fully load.
 	    "tamanho (em kb)":Number(tamanhoPerformance),
 	    "duracao (em milissegundos)":Number(tempoPerformance.toFixed(2))
 	}
-	pagePerformance.push(construindo);
-}
+	pagePerformance.push(construindo);}
 console.table(pagePerformance)
